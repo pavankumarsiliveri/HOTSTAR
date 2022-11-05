@@ -7,3 +7,12 @@ we are some data to it
 haha
 hehehe
 hey...!
+public class student
+
+public void sum()
+{
+int a=10;
+int b=20;
+int c=a+b;
+system.out.println("result"+c)
+}
