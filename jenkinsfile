@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    stages {
+        stage("my bulid stage") {
+            steps{
+                sh '''
+                echo "Bulid Articraft"
+                '''
+            }
+        }
+        stage('deploy stage'){
+            steps{
+                sh '''
+                echo "Deploying code"
+                '''
+            }
+        }
+    }
+}
